@@ -91,7 +91,8 @@ permalink:  /conference/
         addUtcTimeZones();
         try {
           var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-          $('.local-timezone').text(local_timezone.toString());
+          var local_timezone_label = local_timezone === "Asia/Shanghai" ? "Beijing" : local_timezone;
+          $('.local-timezone').text(local_timezone_label);
         }
         catch(err) {
           $('.local-timezone-hide').hide();

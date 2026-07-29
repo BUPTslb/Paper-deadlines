@@ -18,7 +18,6 @@
                 </div>
                 <div class="meta col-12">
                   {{ site.description }}.
-                  To add/edit a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
                 </div>
             </div>
             <br>
@@ -166,7 +165,8 @@
 
         try {
           var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-          $('.local-timezone').text(local_timezone.toString());
+          var local_timezone_label = local_timezone === "Asia/Shanghai" ? "Beijing" : local_timezone;
+          $('.local-timezone').text(local_timezone_label);
         }
         catch(err) {
           $('.local-timezone-hide').hide();
