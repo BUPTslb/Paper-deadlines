@@ -1,6 +1,11 @@
-## AI Deadlines [![Build Status](https://travis-ci.com/abhshkdz/ai-deadlines.svg?branch=gh-pages)](https://travis-ci.com/abhshkdz/ai-deadlines)
+## CS Conference Deadlines
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/RO conference deadlines.
+Countdown timers for top conferences in AI, EDA, computer architecture,
+computer systems, and security. The subject filter is intentionally limited to
+these five areas. Conferences with a confirmed paper deadline are limited to
+the current calendar year, including conferences held the following year.
+Selected top conferences expected to open submissions this year remain visible
+as TBA until their official deadlines are announced.
 
 ## Contributing
 

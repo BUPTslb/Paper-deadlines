@@ -132,6 +132,11 @@ footer {
   font-size: 13px;
 }
 
+.previous-deadline {
+  color: #6c757d;
+  margin-top: 3px;
+}
+
 .note {
   font-size: 13px;
   margin-bottom: 5px;

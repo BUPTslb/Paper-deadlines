@@ -117,6 +117,12 @@
                   <div>Deadline:
                     <span class="deadline-time"></span>
                   </div>
+                  {% if conf.previous_deadline %}
+                  <div class="previous-deadline">
+                    Previous deadline ({{ conf.previous_edition }}):
+                    <span>{{ conf.previous_deadline }}</span>
+                  </div>
+                  {% endif %}
                 </div>
                 <div class="calendar"></div>
               </div>
@@ -173,6 +179,21 @@
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
+          {% if conf.previous_deadline_date and conf.previous_edition_year %}
+          // Estimate the sorting position from the previous edition. This does
+          // not change the displayed deadline, which remains explicitly TBA.
+          var previousDeadline = moment.tz(
+            "{{conf.previous_deadline_date}}",
+            "{{conf.previous_deadline_timezone}}"
+          );
+          var estimatedDeadline = previousDeadline.clone().add(
+            {{ conf.year | minus: conf.previous_edition_year }},
+            'years'
+          );
+          $('#{{conf.id}}').attr("diff", moment().diff(estimatedDeadline));
+          {% else %}
+          $('#{{conf.id}}').attr("diff", Number.NEGATIVE_INFINITY);
+          {% endif %}
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
@@ -226,7 +247,7 @@
           return $(b).attr('diff') - $(a).attr('diff');
         }).appendTo($("#coming_confs"));
 
-        $("#sort-order-checkbox input").on("click", function() {
+        function sortPastConferences() {
           if ($("#sort-order-checkbox input").is(":checked")) {
             $("#past_confs .ConfItem").sort(function (a, b) {
               return $(a).attr('diff') - $(b).attr('diff');
@@ -236,6 +257,11 @@
               return $(b).attr('diff') - $(a).attr('diff');
             }).appendTo($("#past_confs"));
           }
+        }
+
+        sortPastConferences();
+        $("#sort-order-checkbox input").on("click", function() {
+          sortPastConferences();
         });
 
         {% include handle_url_retrieval.js %}
