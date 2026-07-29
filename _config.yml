@@ -2,8 +2,8 @@ title: CS Conference Deadlines
 description: Countdowns to top AI, architecture, EDA, security, and systems conference deadlines
 author: Abhishek Das
 
-domain: "aideadlin.es"
-baseurl: ""
+domain: "buptslb.github.io"
+baseurl: "/Paper-deadlines"
 
 github_username: BUPTslb
 github_repo: Paper-deadlines
@@ -12,3 +12,6 @@ markdown: kramdown
 ga_id:
 
 include: ['_pages']
+exclude:
+  - vendor
+  - 中国计算机学会推荐国际学术会议和期刊目录第七版（2026年3月更新）.pdf
