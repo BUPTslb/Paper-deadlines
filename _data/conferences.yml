@@ -1,6 +1,8 @@
 # Conferences with a confirmed full-paper deadline are listed only when that
 # deadline falls in 2026. Top conferences expected to open submissions in 2026
 # remain visible as TBA until their official deadline is announced.
+# CCF names and rankings follow the 7th edition of the CCF Recommended
+# International Academic Conferences and Journals list (March 2026 update).
 
 # Artificial intelligence
 - title: ACL
@@ -30,7 +32,7 @@
   sub: AI
   note: CCF A. Mandatory abstract deadline is five days before the full-paper deadline.
 
-- title: IJCAI-ECAI
+- title: IJCAI
   year: 2026
   id: ijcai26
   full_name: International Joint Conference on Artificial Intelligence
@@ -40,9 +42,9 @@
   timezone: UTC-12
   place: Bremen, Germany
   date: August 15-21, 2026
-  ccf: A
+  ccf: B
   sub: AI
-  note: CCF A. Mandatory abstract deadline is one week before the full-paper deadline.
+  note: CCF B. Mandatory abstract deadline is one week before the full-paper deadline.
 
 - title: ECCV
   year: 2026
@@ -101,7 +103,7 @@
 - title: CVPR
   year: 2027
   id: cvpr27
-  full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  full_name: IEEE/CVF Computer Vision and Pattern Recognition Conference
   link: https://cvpr.thecvf.com/
   deadline: TBA
   previous_deadline: November 13, 2025 (AoE)
@@ -148,32 +150,15 @@
   timezone: UTC-12
   place: TBA
   date: TBA
-  ccf: B
+  ccf: A
   sub: AI
-  note: CCF B. Expected to open submissions in 2026; the official deadline has not been announced.
-
-- title: MLSys
-  year: 2027
-  id: mlsys27
-  full_name: Conference on Machine Learning and Systems
-  link: https://mlsys.org/
-  deadline: TBA
-  previous_deadline: October 30, 2025, 1:00 PM PDT
-  previous_edition: MLSys 2026
-  previous_deadline_date: '2025-10-30 13:00:00'
-  previous_deadline_timezone: America/Los_Angeles
-  previous_edition_year: 2026
-  timezone: UTC-12
-  place: TBA
-  date: TBA
-  sub: [AI, SYS, ARCH]
-  note: Expected to open submissions in 2026; the official deadline has not been announced.
+  note: CCF A. Expected to open submissions in 2026; the official deadline has not been announced.
 
 # Electronic design automation
 - title: ICCAD
   year: 2026
   id: iccad26
-  full_name: IEEE/ACM International Conference on Computer-Aided Design
+  full_name: International Conference on Computer-Aided Design
   link: https://iccad.com/2026/
   abstract_deadline: '2026-04-07 23:59:59'
   deadline: '2026-04-14 23:59:59'
@@ -194,8 +179,9 @@
   timezone: UTC-12
   place: Hong Kong SAR, China
   date: November 16-18, 2026
+  ccf: B
   sub: [EDA, ARCH]
-  note: Mandatory abstract deadline is one week before the full-paper deadline.
+  note: CCF B. Mandatory abstract deadline is one week before the full-paper deadline.
 
 - title: ASP-DAC
   year: 2027
@@ -206,21 +192,23 @@
   timezone: UTC-12
   place: TBA
   date: TBA
+  ccf: C
   sub: EDA
-  note: The 2027 conference is retained because its paper deadline is in 2026.
+  note: CCF C. The 2027 conference is retained because its paper deadline is in 2026.
 
 - title: DATE
   year: 2027
   id: date27
-  full_name: Design, Automation and Test in Europe Conference
+  full_name: Design, Automation & Test in Europe
   link: https://date27.date-conference.com/
   abstract_deadline: '2026-09-13 23:59:59'
   deadline: '2026-09-20 23:59:59'
   timezone: UTC-12
   place: Dresden, Germany
   date: March 22-24, 2027
+  ccf: B
   sub: EDA
-  note: Mandatory paper registration is one week before the full-paper deadline.
+  note: CCF B. Mandatory paper registration is one week before the full-paper deadline.
 
 - title: DAC
   year: 2027
@@ -258,7 +246,7 @@
 - title: HPCA
   year: 2027
   id: hpca27
-  full_name: IEEE International Symposium on High-Performance Computer Architecture
+  full_name: IEEE International Symposium on High Performance Computer Architecture
   link: https://2027.hpca-conf.org/
   abstract_deadline: '2026-07-24 23:59:59'
   deadline: '2026-07-31 23:59:59'
@@ -310,14 +298,14 @@
   timezone: UTC-12
   place: Renton, Washington, USA
   date: February 23-25, 2027
-  ccf: B
+  ccf: A
   sub: SYS
-  note: CCF B. Fall submission cycle; there is no separate abstract deadline.
+  note: CCF A. Fall submission cycle; there is no separate abstract deadline.
 
 - title: NSDI
   year: 2027
   id: nsdi27fall
-  full_name: USENIX Symposium on Networked Systems Design and Implementation
+  full_name: Symposium on Network System Design and Implementation
   link: https://www.usenix.org/conference/nsdi27/call-for-papers
   abstract_deadline: '2026-09-10 23:59:59'
   deadline: '2026-09-17 23:59:59'
