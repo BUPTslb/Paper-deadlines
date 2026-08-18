@@ -14,3 +14,12 @@
 - name: Security and Privacy
   sub: SEC
   color: "#d00000"
+- name: Compilers
+  sub: COMP
+  color: "#2f80ed"
+- name: FPGA
+  sub: FPGA
+  color: "#2e933c"
+- name: Integrated Circuits
+  sub: IC
+  color: "#e01e5a"

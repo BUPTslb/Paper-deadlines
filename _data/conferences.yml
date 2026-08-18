@@ -330,6 +330,48 @@
   sub: SYS
   note: CCF A. Mandatory abstract registration is one week earlier.
 
+- title: SC
+  year: 2026
+  id: sc26
+  full_name: International Conference for High Performance Computing, Networking, Storage and Analysis
+  link: https://sc26.supercomputing.org/
+  abstract_deadline: '2026-04-01 23:59:59'
+  deadline: '2026-04-08 23:59:59'
+  timezone: UTC-12
+  place: Chicago, Illinois, USA
+  date: November 15-20, 2026
+  ccf: A
+  sub: [ARCH, SYS]
+  note: CCF A. Paper submissions close on April 8 with no extensions; abstracts are due one week earlier.
+
+- title: HPDC
+  year: 2026
+  id: hpdc26
+  full_name: ACM International Symposium on High-Performance Parallel and Distributed Computing
+  link: https://hpdc.sci.utah.edu/2026/
+  abstract_deadline: '2026-01-29 23:59:59'
+  deadline: '2026-02-05 23:59:59'
+  timezone: UTC-12
+  place: Cleveland, Ohio, USA
+  date: July 13-16, 2026
+  ccf: B
+  sub: SYS
+  note: CCF B. Mandatory abstract registration is one week before the firm full-paper deadline.
+
+- title: ICPP
+  year: 2026
+  id: icpp26
+  full_name: International Conference on Parallel Processing
+  link: https://icpp2026.github.io/
+  abstract_deadline: '2026-04-24 23:59:59'
+  deadline: '2026-05-01 23:59:59'
+  timezone: UTC-12
+  place: Singapore
+  date: September 28-October 1, 2026
+  ccf: B
+  sub: [ARCH, SYS]
+  note: CCF B. The 55th ICPP; abstract registration is one week before the full-paper deadline.
+
 # Security and privacy
 - title: CCS
   year: 2026
@@ -370,3 +412,126 @@
   ccf: A
   sub: SEC
   note: CCF A. Review cycle 1; mandatory paper registration is one week earlier.
+
+# Compilers
+- title: CGO
+  year: 2027
+  id: cgo27r1
+  full_name: IEEE/ACM International Symposium on Code Generation and Optimization
+  link: https://conf.researchr.org/track/cgo-2027/cgo-2027-papers
+  deadline: '2026-06-11 23:59:59'
+  timezone: UTC-12
+  place: Salt Lake City, Utah, USA
+  date: March 20-24, 2027
+  ccf: B
+  sub: COMP
+  note: CCF B. First of two 2026 submission rounds; the second-round paper deadline is September 10, 2026. Co-located with HPCA/CGO/PPoPP/CC 2027.
+
+- title: CGO
+  year: 2027
+  id: cgo27r2
+  full_name: IEEE/ACM International Symposium on Code Generation and Optimization
+  link: https://conf.researchr.org/track/cgo-2027/cgo-2027-papers
+  deadline: '2026-09-10 23:59:59'
+  timezone: UTC-12
+  place: Salt Lake City, Utah, USA
+  date: March 20-24, 2027
+  ccf: B
+  sub: COMP
+  note: CCF B. Second review round; papers rejected in round one may not be resubmitted. Co-located with HPCA/CGO/PPoPP/CC 2027.
+
+- title: PACT
+  year: 2026
+  id: pact26
+  full_name: ACM International Conference on Parallel Architectures and Compilation Techniques
+  link: https://pact2026.github.io/
+  abstract_deadline: '2026-04-23 23:59:59'
+  deadline: '2026-04-30 23:59:59'
+  timezone: UTC-12
+  place: Chicago, Illinois, USA
+  date: October 19-22, 2026
+  ccf: B
+  sub: [COMP, ARCH]
+  note: CCF B. Extended deadlines; the original abstract and paper deadlines were April 17 and April 24, 2026.
+
+# FPGA
+- title: FCCM
+  year: 2026
+  id: fccm26
+  full_name: IEEE International Symposium on Field-Programmable Custom Computing Machines
+  link: https://www.fccm.org/
+  abstract_deadline: '2026-01-10 23:59:59'
+  deadline: '2026-01-17 23:59:59'
+  timezone: UTC-12
+  place: Atlanta, Georgia, USA
+  date: May 13-16, 2026
+  ccf: C
+  sub: FPGA
+  note: CCF C. No extensions; abstract registration is one week before the full-paper deadline.
+
+- title: FPL
+  year: 2026
+  id: fpl26
+  full_name: International Conference on Field-Programmable Logic and Applications
+  link: https://2026.fpl.org/
+  abstract_deadline: '2026-03-20 23:59:59'
+  deadline: '2026-03-27 23:59:59'
+  timezone: UTC-12
+  place: Ghent, Belgium
+  date: September 7-11, 2026
+  ccf: C
+  sub: FPGA
+  note: CCF C. The 36th FPL; abstract submission is one week before the full-paper deadline.
+
+- title: FPT
+  year: 2026
+  id: fpt26
+  full_name: International Conference on Field-Programmable Technology
+  link: https://icfpt.org/
+  deadline: '2026-06-05 23:59:59'
+  timezone: UTC-12
+  place: Honolulu, Hawaii, USA
+  date: December 7, 2026
+  ccf: C
+  sub: FPGA
+  note: CCF C. The 25th ICFPT.
+
+- title: FPGA
+  year: 2027
+  id: fpga27
+  full_name: ACM/SIGDA International Symposium on Field-Programmable Gate Arrays
+  link: https://www.isfpga.org/
+  abstract_deadline: '2026-10-01 23:59:59'
+  deadline: '2026-10-08 23:59:59'
+  timezone: UTC-12
+  place: California, USA
+  date: March 14-16, 2027
+  ccf: B
+  sub: FPGA
+  note: CCF B. The 35th ISFPGA; abstracts are due one week before full papers.
+
+# Integrated circuits
+- title: HotChips
+  year: 2026
+  id: hotchips26
+  full_name: Hot Chips – A Symposium on High Performance Chips
+  link: https://hotchips.org/
+  deadline: '2026-04-08 23:59:59'
+  timezone: UTC-12
+  place: Stanford, California, USA
+  date: August 23-25, 2026
+  ccf: B
+  sub: [IC, ARCH]
+  note: CCF B. Extended deadline; the original submission deadline was March 29, 2026. Submissions are two-page extended abstracts.
+
+- title: ISSCC
+  year: 2027
+  id: isscc27
+  full_name: IEEE International Solid-State Circuits Conference
+  link: https://www.isscc.org/
+  deadline: '2026-09-09 15:00:00'
+  timezone: America/New_York
+  place: San Francisco, California, USA
+  date: February 14-18, 2027
+  sub: IC
+  note: The flagship conference for solid-state circuits and systems-on-chip; papers are due at 3:00 PM EDT. Not in the CCF recommended list.
