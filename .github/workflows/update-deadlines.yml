@@ -1,0 +1,48 @@
+name: Update conference deadlines
+
+on:
+  schedule:
+    - cron: "17 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-conference-deadlines
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Check official CFP pages
+        run: python utils/update_deadlines.py --apply
+      - name: Validate data
+        run: python -c "import yaml; yaml.safe_load(open('_data/conferences.yml'))"
+      - name: Open or refresh update pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- _data/conferences.yml; then
+            echo "No newly announced deadlines."
+            exit 0
+          fi
+          branch=automation/update-conference-deadlines
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git switch -C "$branch"
+          git add _data/conferences.yml
+          git commit -m "Update conference deadlines from official CFPs"
+          git push --force-with-lease origin "$branch"
+          gh pr create --base "${GITHUB_REF_NAME}" --head "$branch" \
+            --title "Update conference deadlines from official CFPs" \
+            --body "Automated weekly update. Dates were extracted from the official CFP URLs configured in \`_data/deadline_sources.yml\`; please review before merging." \
+            2>/dev/null || gh pr edit "$branch" --body "Automated weekly update. Please review the official-source changes before merging."

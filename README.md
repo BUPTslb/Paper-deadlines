@@ -46,6 +46,23 @@ To add or update a deadline:
     ```
 - Send a pull request
 
+## Automatic deadline updates
+
+A scheduled GitHub Actions workflow checks configured official CFP pages every
+Monday. It only updates entries that are still `TBA`/`TBD`, validates the
+conference year, and opens a pull request for human review. A page that cannot
+be parsed is reported in the workflow log and never changes the data.
+
+To monitor a pending conference, add its official URL and a label-specific date
+pattern to `_data/deadline_sources.yml`. Test locally with:
+
+```bash
+pip install -r requirements.txt
+python utils/update_deadlines.py --only iclr27
+python utils/update_deadlines.py --only iclr27 --apply
+python -m unittest discover -s utils -p 'test_*.py'
+```
+
 ## Forks & other useful listings
 
 - [geodeadlin.es][3] by @LukasMosser

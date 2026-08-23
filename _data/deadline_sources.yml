@@ -1,0 +1,41 @@
+# Only official conference/CFP pages belong here. Patterns must include a named
+# `date` group and enough surrounding label text to identify a paper deadline.
+sources:
+  - id: cvpr27
+    url: https://cvpr.thecvf.com/
+    deadline:
+      pattern: "Paper (?:Submission )?Deadline\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
+
+  - id: acl27
+    url: https://2027.aclweb.org/
+    deadline:
+      pattern: "ARR submission deadline\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
+
+  - id: iclr27
+    url: https://iclr.cc/Conferences/2027/CallForPapers
+    set:
+      link: https://iclr.cc/Conferences/2027/CallForPapers
+      place: California, USA
+      date: April 26-30, 2027
+      note: CCF A.
+    abstract_deadline:
+      pattern: "Abstract deadline\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
+    deadline:
+      pattern: "Paper deadline\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
+
+  - id: dac27
+    url: https://www.dac.com/
+    deadline:
+      pattern: "(?:Research )?Paper (?:Submission )?Deadline\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
+      time: "17:00:00"
+
+  - id: isca27
+    url: https://www.iscaconf.org/
+    deadline:
+      pattern: "(?:Full )?Paper (?:Submission )?Deadline\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]

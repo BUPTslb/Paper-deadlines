@@ -140,19 +140,15 @@
   year: 2027
   id: iclr27
   full_name: International Conference on Learning Representations
-  link: https://iclr.cc/
-  deadline: TBA
-  previous_deadline: September 24, 2025 (AoE)
-  previous_edition: ICLR 2026
-  previous_deadline_date: '2025-09-24 23:59:59'
-  previous_deadline_timezone: UTC-12
-  previous_edition_year: 2026
+  link: https://iclr.cc/Conferences/2027/CallForPapers
+  abstract_deadline: '2026-09-18 23:59:59'
+  deadline: '2026-09-25 23:59:59'
   timezone: UTC-12
-  place: TBA
-  date: TBA
+  place: California, USA
+  date: April 26-30, 2027
   ccf: A
   sub: AI
-  note: CCF A. Expected to open submissions in 2026; the official deadline has not been announced.
+  note: CCF A.
 
 # Electronic design automation
 - title: ICCAD
