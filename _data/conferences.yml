@@ -123,12 +123,7 @@
   id: acl27
   full_name: Annual Meeting of the Association for Computational Linguistics
   link: https://2027.aclweb.org/
-  deadline: TBA
-  previous_deadline: January 5, 2026 (AoE)
-  previous_edition: ACL 2026
-  previous_deadline_date: '2026-01-05 23:59:59'
-  previous_deadline_timezone: UTC-12
-  previous_edition_year: 2026
+  deadline: '2027-01-04 23:59:59'
   timezone: UTC-12
   place: Kyoto, Japan
   date: August 17-22, 2027
