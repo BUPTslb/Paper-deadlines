@@ -105,36 +105,14 @@
   id: cvpr27
   full_name: IEEE/CVF Computer Vision and Pattern Recognition Conference
   link: https://cvpr.thecvf.com/
-  deadline: TBA
-  previous_deadline: November 13, 2025 (AoE)
-  previous_edition: CVPR 2026
-  previous_deadline_date: '2025-11-13 23:59:59'
-  previous_deadline_timezone: UTC-12
-  previous_edition_year: 2026
+  abstract_deadline: '2026-11-10 23:59:59'
+  deadline: '2026-11-16 23:59:59'
   timezone: UTC-12
-  place: TBA
-  date: TBA
+  place: 'Seattle, WA, USA'
+  date: 'June 20-25, 2027'
   ccf: A
   sub: AI
-  note: CCF A. Expected to open submissions in 2026; the official deadline has not been announced.
-
-- title: ACL
-  year: 2027
-  id: acl27
-  full_name: Annual Meeting of the Association for Computational Linguistics
-  link: https://2027.aclweb.org/
-  deadline: TBA
-  previous_deadline: January 5, 2026 (AoE)
-  previous_edition: ACL 2026
-  previous_deadline_date: '2026-01-05 23:59:59'
-  previous_deadline_timezone: UTC-12
-  previous_edition_year: 2026
-  timezone: UTC-12
-  place: Kyoto, Japan
-  date: August 17-22, 2027
-  ccf: A
-  sub: AI
-  note: CCF A. The official ARR and conference commitment deadlines have not been announced.
+  note: 'CCF A. Paper registration (abstract) due November 10, 2026 AoE; supplementary materials due November 23, 2026 AoE.'
 
 - title: ICLR
   year: 2027
@@ -211,18 +189,28 @@
   id: dac27
   full_name: Design Automation Conference
   link: https://www.dac.com/
-  deadline: TBA
-  previous_deadline: November 19, 2025, 5:00 PM PST
-  previous_edition: DAC 2026
-  previous_deadline_date: '2025-11-19 17:00:00'
-  previous_deadline_timezone: America/Los_Angeles
-  previous_edition_year: 2026
+  abstract_deadline: '2026-11-11 17:00:00'
+  deadline: '2026-11-18 17:00:00'
   timezone: America/Los_Angeles
-  place: TBA
-  date: TBA
+  place: 'San Jose, CA, USA'
+  date: 'July 11-14, 2027'
   ccf: A
   sub: EDA
-  note: CCF A. Expected to open research-paper submissions in 2026; the official deadline has not been announced.
+  note: 'CCF A. Abstract due November 11, 2026 5 PM PST; manuscript deadline November 18, 2026 5 PM PST (originally listed as November 17).'
+
+- title: ISPD
+  year: 2027
+  id: ispd27
+  full_name: ACM International Symposium on Physical Design
+  link: https://ispd.cc/
+  abstract_deadline: '2026-09-21 23:59:59'
+  deadline: '2026-09-28 23:59:59'
+  timezone: UTC-12
+  place: Taipei, Taiwan
+  date: March 31 - April 2, 2027
+  ccf: C
+  sub: EDA
+  note: CCF C. The submission deadline has passed; acceptance notifications are due November 5, 2026.
 
 # Computer architecture
 - title: MICRO
@@ -531,3 +519,16 @@
   date: February 14-18, 2027
   sub: IC
   note: The flagship conference for solid-state circuits and systems-on-chip; papers are due at 3:00 PM EDT. Not in the CCF recommended list.
+
+- title: ISCAS
+  year: 2027
+  id: iscas27
+  full_name: IEEE International Symposium on Circuits and Systems
+  link: https://2027.ieee-iscas.org/
+  deadline: '2026-10-13 23:59:59'
+  timezone: UTC-12
+  place: Bordeaux, France
+  date: June 6-9, 2027
+  ccf: B
+  sub: IC
+  note: CCF B. Regular paper, live demonstration, and tutorial proposal deadline.
