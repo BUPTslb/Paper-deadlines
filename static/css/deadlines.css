@@ -110,6 +110,26 @@ footer {
   margin-bottom: 5px;
 }
 
+.conf-logo {
+  height: 38px;
+  width: auto;
+  max-width: 92px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+#conf-logo {
+  height: 52px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 12px;
+  border-radius: 8px;
+}
+
 .conf-title,
 .conf-title-small,
 .conf-title-icon {
@@ -282,6 +302,11 @@ footer {
   }
   .conf-row {
     margin-bottom: 7px;
+  }
+  .conf-logo {
+    height: 28px;
+    width: 28px;
+    margin-right: 7px;
   }
   .timer {
     display: none;

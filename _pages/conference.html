@@ -13,6 +13,7 @@ permalink:  /conference/
         <div class="row">
           <div class="col-sm-12">
             <h1>
+              <img id="conf-logo" src="" alt="Conference logo" />
               <span id="conf-title-href"></span>
               <span id="twitter-box"></span>
             </h1>
@@ -103,6 +104,20 @@ permalink:  /conference/
 
               $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
               $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
+              $('#conf-logo').attr('src', '{{site.baseurl}}/static/img/logos-webp/{{conf.id}}.webp');
+              $('#conf-logo').on('error', function() {
+                var candidates = [
+                  '{{site.baseurl}}/static/img/logos/{{conf.id}}.svg',
+                  '{{site.baseurl}}/static/img/logos/{{conf.id}}.png'
+                ];
+                var i = +(this.dataset.i || 0);
+                if (i < candidates.length) {
+                  this.dataset.i = i + 1;
+                  this.src = candidates[i];
+                } else {
+                  $(this).remove();
+                }
+              });
               // set badges
               var subs = '{{conf.sub}}'.split(',');
               for (let i = 0; i < subs.length; i++) {

@@ -68,6 +68,7 @@
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-6">
+                  <img src="{{site.baseurl}}/static/img/logos-webp/{{conf.id}}.webp" class="conf-logo" alt="{{conf.title}} logo" loading="lazy" onerror="var c=['{{site.baseurl}}/static/img/logos/{{conf.id}}.svg','{{site.baseurl}}/static/img/logos/{{conf.id}}.png'];var i=+(this.dataset.i||0);if(i<c.length){this.dataset.i=i+1;this.src=c[i];}else{this.remove()}" />
                   <span class="conf-title">
                       <a title="{% if conf.full_name %}{{conf.full_name}}{% else %}Deadline{% endif %} Details" href="{{site.baseurl}}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                   </span>
