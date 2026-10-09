@@ -162,6 +162,10 @@ footer {
   margin-bottom: 5px;
 }
 
+.conf-format {
+  color: #6c757d;
+}
+
 /* CCF rating badge inside notes: A red, B orange, C blue, always bold. */
 .ccf-tag {
   font-weight: 700;

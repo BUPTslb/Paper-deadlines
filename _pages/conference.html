@@ -41,6 +41,10 @@ permalink:  /conference/
             <img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link" />
             <a id="conf-website" target="_blank" nohref></a>
           </div>
+          <div id="conf-format-div" class="col-12">
+            <img src="{{site.baseurl}}/static/img/033-books.svg" class="badge-link" />
+            Paper format: <span id="conf-format"></span>
+          </div>
           <div id="conf-paperslink-div" class="col-12">
             <img src="{{site.baseurl}}/static/img/033-books.svg" class="badge-link" />
             Accepted Papers:
@@ -133,6 +137,11 @@ permalink:  /conference/
               $('#conf-place').attr('href', "https://maps.google.com/?q={{conf.place}}")
               $('#conf-website').text("{{conf.link}}");
               $('#conf-website').attr('href', "{{conf.link}}");
+              {% if conf.format %}
+              $('#conf-format').text("{{ conf.format }}");
+              {% else %}
+              $('#conf-format-div').remove();
+              {% endif %}
               {% if conf.paperslink %}
                 $('#conf-paperslink').text("{{conf.paperslink}}");
                 $('#conf-paperslink').attr('href', "{{conf.paperslink}}");
