@@ -587,3 +587,15 @@
   ccf: B
   sub: IC
   note: CCF B. Regular paper, live demonstration, and tutorial proposal deadline.
+
+- title: IEDM
+  year: 2026
+  id: iedm26
+  full_name: IEEE International Electron Devices Meeting
+  link: https://ieee-iedm.org/
+  deadline: '2026-07-19 23:59:59'
+  timezone: America/Los_Angeles
+  place: San Francisco, California, USA
+  date: December 12-16, 2026
+  sub: IC
+  note: The flagship conference for semiconductor device technology; the paper deadline was extended from July 16 to July 19, 2026 (23:59 PDT), with late-news papers closing August 18. Not in the CCF recommended list.
