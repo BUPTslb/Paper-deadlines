@@ -203,11 +203,13 @@
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function (event) {
               $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+              applyCountdownTier($(this), event.finalDate - Date.now());
           });
 
           // render countdown timer small
           $('#{{conf.id}} .timer-small').countdown(confDate.toDate(), function (event) {
               $(this).html(event.strftime('%Dd %H:%M:%S'));
+              applyCountdownTier($(this), event.finalDate - Date.now());
           });
 
           // convert deadline to local timezone

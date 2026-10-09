@@ -168,6 +168,32 @@ footer {
   font-weight: 400;
 }
 
+/* Countdown urgency tiers: green with plenty of time, warming up through
+   amber and orange to red inside a week, gray after the deadline. */
+.tier-far {
+  color: #2f9e44;
+}
+
+.tier-month {
+  color: #f08c00;
+}
+
+.tier-2weeks {
+  color: #e8590c;
+  font-weight: 600;
+}
+
+.tier-week {
+  color: #c92a2a;
+  font-weight: 700;
+}
+
+.tier-past,
+.past .deadline {
+  color: #6c757d;
+  font-weight: 400;
+}
+
 #confs {
   margin-top: 20px;
 }

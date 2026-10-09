@@ -171,6 +171,7 @@ permalink:  /conference/
                 // render countdown timer
                 $('#conf-timer').countdown(confDeadline.toDate(), function(event) {
                   $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+                  applyCountdownTier($(this), event.finalDate - Date.now());
                 });
                 $('.deadline-time').html(confDeadline.toString());
 

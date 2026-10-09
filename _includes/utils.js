@@ -34,6 +34,24 @@ function update_filtering(data) {
   }
 }
 
+// Urgency tier for a countdown: how far the deadline still is away.
+// Returns a class name styled in deadlines.css (green > amber > orange > red,
+// gray once the deadline has passed).
+function countdownTier(remainingMs) {
+  var hours = remainingMs / 3600000;
+  if (hours <= 0) return "tier-past";
+  if (hours <= 24 * 7) return "tier-week";
+  if (hours <= 24 * 14) return "tier-2weeks";
+  if (hours <= 24 * 30) return "tier-month";
+  return "tier-far";
+}
+
+function applyCountdownTier($el, remainingMs) {
+  $el
+    .removeClass("tier-far tier-month tier-2weeks tier-week tier-past")
+    .addClass(countdownTier(remainingMs));
+}
+
 function createCalendarFromObject(data) {
   return createCalendar({
     options: {
