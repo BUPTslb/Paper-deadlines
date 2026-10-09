@@ -162,8 +162,22 @@ footer {
   margin-bottom: 5px;
 }
 
+/* Paper format hint: bold, with single- and double-column tinted
+   differently (grape for single, deep blue for double). */
 .conf-format {
-  color: #6c757d;
+  font-weight: 600;
+}
+
+.conf-format-sep {
+  color: #adb5bd;
+}
+
+.fmt-single {
+  color: #9c36b5;
+}
+
+.fmt-double {
+  color: #1864ab;
 }
 
 /* CCF rating badge inside notes: A red, B orange, C blue, always bold. */

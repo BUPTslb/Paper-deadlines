@@ -105,7 +105,8 @@
                     {% endif %}
                   </span>
                   {% if conf.format_short %}
-                  <span class="conf-format">| {{ conf.format_short }}</span>
+                  {% assign fsl = conf.format_short | downcase %}
+                  <span class="conf-format-sep">|</span> <span class="conf-format {% if fsl contains 'single' %}fmt-single{% elsif fsl contains 'double' %}fmt-double{% endif %}">{{ conf.format_short }}</span>
                   {% endif %}
                 </div>
                 {% if conf.note %}
