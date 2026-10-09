@@ -16,6 +16,8 @@
   date: July 2-7, 2026
   ccf: A
   sub: AI
+  format: 'Single column (ACL style); long papers 8 pages of content (short papers 4) plus unlimited pages for the required limitations section, ethics, and references.'
+  format_short: 'single, 8 pages w/o refs'
   note: CCF A. This is the ARR submission deadline.
 
 - title: ICML
@@ -30,6 +32,8 @@
   date: July 6-11, 2026
   ccf: A
   sub: AI
+  format: 'Single column (PMLR style); 8 pages of main text at submission, one extra page at camera-ready; unlimited references and appendices.'
+  format_short: 'single, 8 pages w/o refs'
   note: CCF A. Mandatory abstract deadline is five days before the full-paper deadline.
 
 - title: IJCAI
@@ -44,6 +48,8 @@
   date: August 15-21, 2026
   ccf: B
   sub: AI
+  format: 'Double column (IJCAI style); 7 pages of body plus up to 2 pages of references; technical appendix submitted as separate supplementary material.'
+  format_short: 'double, 7 pages + 2 refs'
   note: CCF B. Mandatory abstract deadline is one week before the full-paper deadline.
 
 - title: ECCV
@@ -57,6 +63,8 @@
   date: September 8-13, 2026
   ccf: B
   sub: AI
+  format: 'Single column (Springer LNCS); 14 pages excluding references (15 for camera-ready); supplementary material submitted separately.'
+  format_short: 'single, 14 pages w/o refs'
   note: CCF B.
 
 - title: NeurIPS
@@ -71,6 +79,8 @@
   date: December 6-12, 2026
   ccf: A
   sub: AI
+  format: 'Single column (NeurIPS style); 9 pages of main text plus up to 10 additional pages for references, acknowledgements, checklist, and technical appendix.'
+  format_short: 'single, 9 pages + up to 10 extra'
   note: CCF A.
 
 - title: AAAI
@@ -85,6 +95,8 @@
   date: February 16-23, 2027
   ccf: A
   sub: AI
+  format: 'Double column (AAAI style); 7 pages of main content plus up to 2 pages for references only; extra material goes in a separate supplementary file.'
+  format_short: 'double, 7 pages + 2 ref-only pages'
   note: CCF A. Mandatory abstract deadline is one week before the full-paper deadline.
 
 - title: COLING
@@ -98,6 +110,8 @@
   date: May 9-14, 2027
   ccf: B
   sub: AI
+  format: 'Single column (ACL style); long papers 8 pages of main text (short papers 4); references and appendices do not count toward the limit.'
+  format_short: 'single, 8 pages w/o refs'
   note: CCF B. This is the ARR submission deadline.
 
 - title: CVPR
@@ -112,6 +126,8 @@
   date: 'June 20-25, 2027'
   ccf: A
   sub: AI
+  format: 'Double column (CVPR style); 8 pages excluding references, unlimited reference pages; supplementary material (appendix, code) submitted separately.'
+  format_short: 'double, 8 pages w/o refs'
   note: 'CCF A. Paper registration (abstract) due November 10, 2026 AoE; supplementary materials due November 23, 2026 AoE.'
 
 - title: ICLR
@@ -126,6 +142,8 @@
   date: April 26-30, 2027
   ccf: A
   sub: AI
+  format: 'Single column (ICLR style); 9 pages of main text at submission (10 for camera-ready), unlimited references; appendices allowed after the references.'
+  format_short: 'single, 9 pages w/o refs'
   note: CCF A.
 
 # Electronic design automation
@@ -141,6 +159,8 @@
   date: November 8-12, 2026
   ccf: B
   sub: EDA
+  format: 'Double column (IEEE); 6 pages plus 1 additional page of references only.'
+  format_short: 'double, 6 pages + 1 ref page'
   note: CCF B. Mandatory abstract deadline is one week before the full-paper deadline.
 
 - title: ICCD
@@ -155,6 +175,8 @@
   date: November 16-18, 2026
   ccf: B
   sub: [EDA, ARCH]
+  format: 'Double column (IEEE); 8 pages including figures, references, and appendix; up to 2 extra pages can be purchased for camera-ready.'
+  format_short: 'double, 8 pages incl. refs & appendix'
   note: CCF B. Mandatory abstract deadline is one week before the full-paper deadline.
 
 - title: ASP-DAC
@@ -168,6 +190,8 @@
   date: TBA
   ccf: C
   sub: EDA
+  format: 'Double column (IEEE); 6 pages including figures and tables plus 1 page of references.'
+  format_short: 'double, 6 pages + 1 ref page'
   note: CCF C. The 2027 conference is retained because its paper deadline is in 2026.
 
 - title: DATE
@@ -182,6 +206,8 @@
   date: March 22-24, 2027
   ccf: B
   sub: EDA
+  format: 'Double column; 6 pages of content plus 1 page of references.'
+  format_short: 'double, 6 pages + 1 ref page'
   note: CCF B. Mandatory paper registration is one week before the full-paper deadline.
 
 - title: DAC
@@ -196,6 +222,8 @@
   date: 'July 11-14, 2027'
   ccf: A
   sub: EDA
+  format: 'Double column (IEEE); 6 pages excluding references plus 1 references-only page.'
+  format_short: 'double, 6 pages + 1 ref page'
   note: 'CCF A. Abstract due November 11, 2026 5 PM PST; manuscript deadline November 18, 2026 5 PM PST (originally listed as November 17).'
 
 - title: ISPD
@@ -210,6 +238,8 @@
   date: March 31 - April 2, 2027
   ccf: C
   sub: EDA
+  format: 'Double column (ACM); 8 pages plus 1 extra page for references.'
+  format_short: 'double, 8 pages + 1 ref page'
   note: CCF C. The submission deadline has passed; acceptance notifications are due November 5, 2026.
 
 # Computer architecture
@@ -225,6 +255,8 @@
   date: October 17-21, 2026
   ccf: A
   sub: ARCH
+  format: 'Double column; 11 pages excluding references; no appendix allowed; no page limit for references.'
+  format_short: 'double, 11 pages w/o refs, no appendix'
   note: CCF A.
 
 - title: HPCA
@@ -239,6 +271,8 @@
   date: March 20-24, 2027
   ccf: A
   sub: ARCH
+  format: 'Double column; 11 pages excluding references; no page limit for references.'
+  format_short: 'double, 11 pages w/o refs'
   note: CCF A. Mandatory paper registration is one week before the full-paper deadline.
 
 - title: ASPLOS
@@ -252,6 +286,8 @@
   date: TBA
   ccf: A
   sub: [ARCH, SYS]
+  format: 'Double column (ACM); 11 pages excluding references and acknowledgments; unlimited reference pages; artifact appendix up to 2 pages at camera-ready.'
+  format_short: 'double, 11 pages w/o refs'
   note: CCF A. September submission cycle; there is no separate abstract deadline.
 
 - title: ISCA
@@ -270,6 +306,8 @@
   date: TBA
   ccf: A
   sub: ARCH
+  format: 'Double column; 11 pages excluding references with unlimited reference pages (per the standing ISCA guidelines; the 2027 CFP is not out yet).'
+  format_short: 'double, 11 pages w/o refs'
   note: CCF A. Expected to open submissions in 2026; the official deadline has not been announced.
 
 # Computer systems
@@ -284,6 +322,8 @@
   date: February 23-25, 2027
   ccf: A
   sub: SYS
+  format: 'Double column (USENIX); long papers 12 pages excluding references, short papers 6 pages excluding references.'
+  format_short: 'double, 12 pages w/o refs'
   note: CCF A. Fall submission cycle; there is no separate abstract deadline.
 
 - title: NSDI
@@ -298,6 +338,8 @@
   date: May 11-13, 2027
   ccf: A
   sub: SYS
+  format: 'Double column (USENIX); 12 pages including footnotes, figures, and tables, plus additional pages for references only.'
+  format_short: 'double, 12 pages + ref pages'
   note: CCF A. Fall submission cycle; mandatory abstract deadline is one week earlier.
 
 - title: OSDI
@@ -312,6 +354,8 @@
   date: July 7-9, 2027
   ccf: A
   sub: SYS
+  format: 'Double column (USENIX); 12 pages including figures and tables plus as many reference pages as needed; optional supplementary material in separate files; 14 pages plus references in the proceedings.'
+  format_short: 'double, 12 pages + ref pages'
   note: CCF A. Mandatory abstract registration is one week earlier.
 
 - title: SC
@@ -326,6 +370,8 @@
   date: November 15-20, 2026
   ccf: A
   sub: [ARCH, SYS]
+  format: 'Double column (IEEE); 10 pages excluding the bibliography; appendices count toward the limit except the optional 2-page artifact description appendix.'
+  format_short: 'double, 10 pages w/o refs'
   note: CCF A. Paper submissions close on April 8 with no extensions; abstracts are due one week earlier.
 
 - title: HPDC
@@ -340,6 +386,8 @@
   date: July 13-16, 2026
   ccf: B
   sub: SYS
+  format: 'Double column (ACM sigconf); 11 pages excluding references.'
+  format_short: 'double, 11 pages w/o refs'
   note: CCF B. Mandatory abstract registration is one week before the firm full-paper deadline.
 
 - title: ICPP
@@ -354,6 +402,8 @@
   date: September 28-October 1, 2026
   ccf: B
   sub: [ARCH, SYS]
+  format: 'ACM format; 10 pages including references.'
+  format_short: 'double, 10 pages incl. refs'
   note: CCF B. The 55th ICPP; abstract registration is one week before the full-paper deadline.
 
 # Security and privacy
@@ -368,6 +418,8 @@
   date: TBA
   ccf: A
   sub: SEC
+  format: 'Double column (ACM sigconf); 12 pages excluding the bibliography and well-marked appendices; the ethical considerations section does not count.'
+  format_short: 'double, 12 pages w/o refs'
   note: CCF A. Second review cycle.
 
 - title: NDSS
@@ -381,6 +433,8 @@
   date: March 22-26, 2027
   ccf: A
   sub: SEC
+  format: 'Double column; 15 pages excluding references, appendices, and the ethics statement; final papers at most 18 pages including everything.'
+  format_short: 'double, 15 pages w/o refs & appendix'
   note: CCF A. Fall submission cycle.
 
 - title: USENIX Security
@@ -395,6 +449,8 @@
   date: August 11-13, 2027
   ccf: A
   sub: SEC
+  format: 'Double column (USENIX); 13 pages of main text excluding references and appendices; unlimited appendices and references at submission; final papers at most 20 pages.'
+  format_short: 'double, 13 pages w/o refs & appendix'
   note: CCF A. Review cycle 1; mandatory paper registration is one week earlier.
 
 # Compilers
@@ -409,6 +465,8 @@
   date: March 20-24, 2027
   ccf: B
   sub: COMP
+  format: 'Double column (ACM SIGPLAN); 11 pages excluding the bibliography; no page limit for references; optional 2-page artifact appendix.'
+  format_short: 'double, 11 pages w/o refs'
   note: CCF B. First of two 2026 submission rounds; the second-round paper deadline is September 10, 2026. Co-located with HPCA/CGO/PPoPP/CC 2027.
 
 - title: CGO
@@ -422,6 +480,8 @@
   date: March 20-24, 2027
   ccf: B
   sub: COMP
+  format: 'Double column (ACM SIGPLAN); 11 pages excluding the bibliography; no page limit for references; optional 2-page artifact appendix.'
+  format_short: 'double, 11 pages w/o refs'
   note: CCF B. Second review round; papers rejected in round one may not be resubmitted. Co-located with HPCA/CGO/PPoPP/CC 2027.
 
 - title: PACT
@@ -436,6 +496,8 @@
   date: October 19-22, 2026
   ccf: B
   sub: [COMP, ARCH]
+  format: 'Double column (ACM sigconf, 9pt); 10 pages excluding references.'
+  format_short: 'double, 10 pages w/o refs'
   note: CCF B. Extended deadlines; the original abstract and paper deadlines were April 17 and April 24, 2026.
 
 # FPGA
@@ -451,6 +513,8 @@
   date: May 13-16, 2026
   ccf: C
   sub: FPGA
+  format: 'Double column (IEEE); long papers 8 pages and short papers 4 pages, both excluding references.'
+  format_short: 'double, 8 pages w/o refs'
   note: CCF C. No extensions; abstract registration is one week before the full-paper deadline.
 
 - title: FPL
@@ -465,6 +529,8 @@
   date: September 7-11, 2026
   ccf: C
   sub: FPGA
+  format: 'Double column (IEEE); long papers 8 pages plus references (references limited to 2 pages), short papers 5 pages plus references.'
+  format_short: 'double, 8 pages + up to 2 ref pages'
   note: CCF C. The 36th FPL; abstract submission is one week before the full-paper deadline.
 
 - title: FPT
@@ -478,6 +544,8 @@
   date: December 7, 2026
   ccf: C
   sub: FPGA
+  format: 'Double column (IEEE); full papers 8 pages plus unlimited reference pages; short papers 4 pages including references.'
+  format_short: 'double, 8 pages + unlimited refs'
   note: CCF C. The 25th ICFPT.
 
 - title: FPGA
@@ -492,6 +560,8 @@
   date: March 14-16, 2027
   ccf: B
   sub: FPGA
+  format: 'Double column (ACM); long papers 10 pages excluding references.'
+  format_short: 'double, 10 pages w/o refs'
   note: CCF B. The 35th ISFPGA; abstracts are due one week before full papers.
 
 # Databases and data mining
@@ -507,6 +577,8 @@
   date: June 13-19, 2027
   ccf: A
   sub: DB
+  format: 'Double column (ACM sigconf); 12 pages plus unlimited pages for citations; appendix allowed as a separate PDF.'
+  format_short: 'double, 12 pages w/o refs'
   note: CCF A. Rolling quarterly review; this is the Round 4 research-track deadline, with abstracts due October 10, 2026 AoE.
 
 - title: VLDB
@@ -520,6 +592,8 @@
   date: August 23-27, 2027
   ccf: A
   sub: DB
+  format: 'Double column (PVLDB style); 12 pages excluding references.'
+  format_short: 'double, 12 pages w/o refs'
   note: CCF A. PVLDB Volume 20 reviews monthly; papers are due on the 1st of each month at 5 PM PT (abstracts on the 25th of the prior month).
 
 - title: ICDE
@@ -533,6 +607,8 @@
   date: May 17-21, 2027
   ccf: A
   sub: DB
+  format: 'Double column (IEEE); 12 pages excluding references; no appendix is allowed.'
+  format_short: 'double, 12 pages w/o refs, no appendix'
   note: CCF A. Second of two research-track submission rounds; deadlines are 5 PM Pacific Time.
 
 - title: KDD
@@ -547,6 +623,8 @@
   date: August 1-5, 2027
   ccf: A
   sub: DB
+  format: 'Double column (ACM); 9 content pages; unlimited references and a technical appendix is allowed (12 pages total in the proceedings).'
+  format_short: 'double, 9 content pages w/o refs'
   note: CCF A. Research-track Cycle 1 deadline has passed; Cycle 2 closes in February 2027.
 
 # Integrated circuits
@@ -561,6 +639,8 @@
   date: August 23-25, 2026
   ccf: B
   sub: [IC, ARCH]
+  format: 'Two-page extended abstracts describing the work to be presented.'
+  format_short: '2-page extended abstract'
   note: CCF B. Extended deadline; the original submission deadline was March 29, 2026. Submissions are two-page extended abstracts.
 
 - title: ISSCC
@@ -573,6 +653,8 @@
   place: San Francisco, California, USA
   date: February 14-18, 2027
   sub: IC
+  format: 'Submission in ISSCC format: 5 pages of single-column double-spaced text (12pt Arial Narrow, under 11,000 characters) plus figures in the ISSCC figure template; accepted papers appear in the IEEE digest format.'
+  format_short: '5-page single-column draft + figures'
   note: The flagship conference for solid-state circuits and systems-on-chip; papers are due at 3:00 PM EDT. Not in the CCF recommended list.
 
 - title: ISCAS
@@ -586,6 +668,8 @@
   date: June 6-9, 2027
   ccf: B
   sub: IC
+  format: 'Double column (IEEE); 5 pages total of which 4 for technical content including references, plus one optional extra page.'
+  format_short: 'double, 4+1 pages incl. refs'
   note: CCF B. Regular paper, live demonstration, and tutorial proposal deadline.
 
 - title: IEDM
@@ -598,4 +682,21 @@
   place: San Francisco, California, USA
   date: December 12-16, 2026
   sub: IC
+  format: 'Double column (IEEE); four-page abstract-format submission (summary plus supporting data and figures).'
+  format_short: 'double, 4-page abstract format'
   note: The flagship conference for semiconductor device technology; the paper deadline was extended from July 16 to July 19, 2026 (23:59 PDT), with late-news papers closing August 18. Not in the CCF recommended list.
+
+- title: GLSVLSI
+  year: 2027
+  id: glsvlsi27
+  full_name: Great Lakes Symposium on VLSI
+  link: https://www.glsvlsi.org/
+  deadline: TBA
+  timezone: America/New_York
+  place: TBA
+  date: TBA
+  ccf: C
+  sub: IC
+  format: 'Double column (ACM); regular papers 6 pages including references, extendable to 8 pages with a page fee; late-breaking-result papers 2 pages (per the 2026 rules; the 2027 CFP is not out yet).'
+  format_short: 'double, 6 pages incl. refs'
+  note: CCF C. The official 2027 deadline has not been announced; recent editions used a March paper deadline (11:59 pm EST).
