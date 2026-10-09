@@ -107,7 +107,7 @@
                 </div>
                 {% if conf.note %}
                   <div class="note">
-                      <b>Note: </b>{{conf.note}}
+                      <b>Note: </b>{% if conf.ccf %}<span class="ccf-tag ccf-{{conf.ccf | downcase}}">CCF {{conf.ccf}}</span>{% endif %}{% assign note_body = conf.note | remove_first: 'CCF A.' | remove_first: 'CCF B.' | remove_first: 'CCF C.' | strip %}{{ note_body }}
                   </div>
                 {% endif %}
 

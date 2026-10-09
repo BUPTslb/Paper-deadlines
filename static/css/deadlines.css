@@ -162,6 +162,24 @@ footer {
   margin-bottom: 5px;
 }
 
+/* CCF rating badge inside notes: A red, B orange, C blue, always bold. */
+.ccf-tag {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.ccf-a {
+  color: #c92a2a;
+}
+
+.ccf-b {
+  color: #e8590c;
+}
+
+.ccf-c {
+  color: #1971c2;
+}
+
 .timer,
 .timer-small {
   font-size: 20px;
