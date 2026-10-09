@@ -134,7 +134,16 @@ def fetch_one(conf: dict, colors: dict[str, str]) -> str:
 
 
 def main() -> int:
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--only", action="append",
+                        help="only refresh this conference id (protects manual fixes)")
+    args = parser.parse_args()
     conferences = yaml.safe_load(CONFERENCES_FILE.read_text(encoding="utf-8"))
+    if args.only:
+        wanted = set(args.only)
+        conferences = [c for c in conferences if c["id"] in wanted]
     colors = {t["sub"]: t["color"] for t in yaml.safe_load(TYPES_FILE.read_text(encoding="utf-8"))}
     LOGO_DIR.mkdir(parents=True, exist_ok=True)
     WEBP_DIR.mkdir(parents=True, exist_ok=True)

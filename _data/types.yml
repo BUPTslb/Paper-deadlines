@@ -23,3 +23,6 @@
 - name: Integrated Circuits
   sub: IC
   color: "#e01e5a"
+- name: Databases and Data Mining
+  sub: DB
+  color: "#06d6a0"

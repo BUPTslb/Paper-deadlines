@@ -494,6 +494,61 @@
   sub: FPGA
   note: CCF B. The 35th ISFPGA; abstracts are due one week before full papers.
 
+# Databases and data mining
+- title: SIGMOD
+  year: 2027
+  id: sigmod27
+  full_name: ACM SIGMOD Conference
+  link: https://2027.sigmod.org/
+  abstract_deadline: '2026-10-10 23:59:59'
+  deadline: '2026-10-17 23:59:59'
+  timezone: UTC-12
+  place: Huntington Beach, California, USA
+  date: June 13-19, 2027
+  ccf: A
+  sub: DB
+  note: CCF A. Rolling quarterly review; this is the Round 4 research-track deadline, with abstracts due October 10, 2026 AoE.
+
+- title: VLDB
+  year: 2027
+  id: vldb27
+  full_name: International Conference on Very Large Data Bases
+  link: https://www.vldb.org/2027/
+  deadline: '2026-11-01 17:00:00'
+  timezone: America/Los_Angeles
+  place: Athens, Greece
+  date: August 23-27, 2027
+  ccf: A
+  sub: DB
+  note: CCF A. PVLDB Volume 20 reviews monthly; papers are due on the 1st of each month at 5 PM PT (abstracts on the 25th of the prior month).
+
+- title: ICDE
+  year: 2027
+  id: icde27
+  full_name: IEEE International Conference on Data Engineering
+  link: https://icde2027.github.io/
+  deadline: '2026-11-11 17:00:00'
+  timezone: America/Los_Angeles
+  place: Copenhagen, Denmark
+  date: May 17-21, 2027
+  ccf: A
+  sub: DB
+  note: CCF A. Second of two research-track submission rounds; deadlines are 5 PM Pacific Time.
+
+- title: KDD
+  year: 2027
+  id: kdd27
+  full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  link: https://kdd2027.kdd.org/
+  abstract_deadline: '2026-07-19 23:59:59'
+  deadline: '2026-07-26 23:59:59'
+  timezone: UTC-12
+  place: San Jose, California, USA
+  date: August 1-5, 2027
+  ccf: A
+  sub: DB
+  note: CCF A. Research-track Cycle 1 deadline has passed; Cycle 2 closes in February 2027.
+
 # Integrated circuits
 - title: HotChips
   year: 2026

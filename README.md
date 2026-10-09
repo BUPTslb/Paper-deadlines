@@ -3,8 +3,9 @@
 在线访问：[https://buptslb.github.io/Paper-deadlines/](https://buptslb.github.io/Paper-deadlines/)
 
 Countdown timers for top conferences in AI, EDA, computer architecture,
-computer systems, security, compilers, FPGA, and integrated circuits. The
-subject filter is intentionally limited to these eight areas. Conferences with a confirmed paper deadline are limited to
+computer systems, security, compilers, FPGA, integrated circuits, and
+databases/data mining (CCF-A only). The
+subject filter is intentionally limited to these nine areas. Conferences with a confirmed paper deadline are limited to
 the current calendar year, including conferences held the following year.
 Selected top conferences expected to open submissions this year remain visible
 as TBA until their official deadlines are announced.
