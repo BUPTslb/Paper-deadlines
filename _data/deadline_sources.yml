@@ -16,9 +16,6 @@ sources:
     deadline:
       pattern: "ARR submission deadline(?: \\(long & short papers\\))?\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
       formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
-    deadline:
-      pattern: "Submission Deadline\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2} '\\d{2})"
-      formats: ["%b %d '%y"]
 
   - id: iclr27
     url: https://iclr.cc/Conferences/2027/CallForPapers
