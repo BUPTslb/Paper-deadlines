@@ -130,6 +130,19 @@
   format_short: 'double, 8 pages w/o refs'
   note: 'CCF A. Paper registration (abstract) due November 10, 2026 AoE; supplementary materials due November 23, 2026 AoE.'
 
+- title: ACL
+  year: 2027
+  id: acl27
+  full_name: Annual Meeting of the Association for Computational Linguistics
+  link: https://2027.aclweb.org/
+  deadline: '2027-01-04 23:59:59'
+  timezone: UTC-12
+  place: Kyoto, Japan
+  date: August 17-22, 2027
+  ccf: A
+  sub: AI
+  note: CCF A. This is the ARR submission deadline; the commitment deadline is TBA.
+
 - title: ICLR
   year: 2027
   id: iclr27
@@ -184,15 +197,16 @@
   id: aspdac27
   full_name: Asia and South Pacific Design Automation Conference
   link: https://www.aspdac.com/
-  deadline: '2026-07-07 23:59:59'
+  abstract_deadline: '2026-07-11 17:00:00'
+  deadline: '2026-07-18 17:00:00'
   timezone: UTC-12
-  place: TBA
-  date: TBA
+  place: Tokyo, Japan
+  date: January 25-28, 2027
   ccf: C
   sub: EDA
   format: 'Double column (IEEE); 6 pages including figures and tables plus 1 page of references.'
   format_short: 'double, 6 pages + 1 ref page'
-  note: CCF C. The 2027 conference is retained because its paper deadline is in 2026.
+  note: CCF C. Abstract is due July 11 and PDF upload is due July 18, 2026, at 5:00 PM AoE.
 
 - title: DATE
   year: 2027
@@ -243,6 +257,21 @@
   note: CCF C. The submission deadline has passed; acceptance notifications are due November 5, 2026.
 
 # Computer architecture
+- title: ASPLOS
+  year: 2027
+  id: asplos27apr
+  full_name: International Conference on Architectural Support for Programming Languages and Operating Systems
+  link: https://www.asplos-conference.org/asplos2027/cfp/
+  deadline: '2026-04-15 23:59:59'
+  timezone: UTC-12
+  place: Heraklion, Crete, Greece
+  date: April 11-15, 2027
+  ccf: A
+  sub: [ARCH, SYS]
+  format: 'Double column (ACM); 11 pages excluding references and acknowledgments; unlimited reference pages; artifact appendix up to 2 pages at camera-ready.'
+  format_short: 'double, 11 pages w/o refs'
+  note: CCF A. April submission cycle; there is no separate abstract deadline.
+
 - title: MICRO
   year: 2026
   id: micro26
@@ -282,8 +311,8 @@
   link: https://www.asplos-conference.org/asplos2027/cfp/
   deadline: '2026-09-09 23:59:59'
   timezone: UTC-12
-  place: TBA
-  date: TBA
+  place: Heraklion, Crete, Greece
+  date: April 11-15, 2027
   ccf: A
   sub: [ARCH, SYS]
   format: 'Double column (ACM); 11 pages excluding references and acknowledgments; unlimited reference pages; artifact appendix up to 2 pages at camera-ready.'
@@ -294,21 +323,17 @@
   year: 2027
   id: isca27
   full_name: International Symposium on Computer Architecture
-  link: https://www.iscaconf.org/
-  deadline: TBA
-  previous_deadline: November 17, 2025 (AoE)
-  previous_edition: ISCA 2026
-  previous_deadline_date: '2025-11-17 23:59:59'
-  previous_deadline_timezone: UTC-12
-  previous_edition_year: 2026
+  link: https://www.iscaconf.org/isca2027/submit/callforpapers.php
+  abstract_deadline: '2026-11-09 23:59:59'
+  deadline: '2026-11-16 23:59:59'
   timezone: UTC-12
-  place: TBA
-  date: TBA
+  place: Atlanta, Georgia, USA
+  date: June 5-9, 2027
   ccf: A
   sub: ARCH
   format: 'Double column; 11 pages excluding references with unlimited reference pages (per the standing ISCA guidelines; the 2027 CFP is not out yet).'
   format_short: 'double, 11 pages w/o refs'
-  note: CCF A. Expected to open submissions in 2026; the official deadline has not been announced.
+  note: CCF A. Main-track abstract registration is one week before the full-paper deadline.
 
 # Computer systems
 - title: FAST
@@ -414,8 +439,8 @@
   link: https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html
   deadline: '2026-04-29 23:59:59'
   timezone: UTC-12
-  place: TBA
-  date: TBA
+  place: The Hague, Netherlands
+  date: November 15-19, 2026
   ccf: A
   sub: SEC
   format: 'Double column (ACM sigconf); 12 pages excluding the bibliography and well-marked appendices; the ethical considerations section does not count.'

@@ -10,6 +10,12 @@ sources:
     abstract_deadline:
       pattern: "Paper Registration Deadline\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2} '\\d{2})"
       formats: ["%b %d '%y"]
+
+  - id: acl27
+    url: https://2027.aclweb.org/
+    deadline:
+      pattern: "ARR submission deadline(?: \\(long & short papers\\))?\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
     deadline:
       pattern: "Submission Deadline\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2} '\\d{2})"
       formats: ["%b %d '%y"]
@@ -44,7 +50,10 @@ sources:
       time: "17:00:00"
 
   - id: isca27
-    url: https://www.iscaconf.org/
+    url: https://www.iscaconf.org/isca2027/submit/callforpapers.php
+    abstract_deadline:
+      pattern: "Abstract Deadline\\s*\\|\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
     deadline:
-      pattern: "(?:Full )?Paper (?:Submission )?Deadline\\s*[:|-]?\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
+      pattern: "Full Paper Deadline\\s*\\|\\s*(?P<date>[A-Z][a-z]{2,8} \\d{1,2},? 20\\d{2})"
       formats: ["%b %d, %Y", "%b %d %Y", "%B %d, %Y", "%B %d %Y"]
