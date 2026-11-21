@@ -331,7 +331,7 @@
   date: June 5-9, 2027
   ccf: A
   sub: ARCH
-  format: 'Double column; 11 pages excluding references with unlimited reference pages (per the standing ISCA guidelines; the 2027 CFP is not out yet).'
+  format: 'Double column (ACM sigconf); 11 pages including appendices, with unlimited additional pages for references.'
   format_short: 'double, 11 pages w/o refs'
   note: CCF A. Main-track abstract registration is one week before the full-paper deadline.
 
