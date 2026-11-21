@@ -1,0 +1,26 @@
+name: Validate conference deadlines
+
+on:
+  pull_request:
+    paths:
+      - "_data/conferences.yml"
+      - "_data/deadline_sources.yml"
+      - "utils/update_deadlines.py"
+      - "utils/test_update_deadlines.py"
+      - "requirements.txt"
+      - ".github/workflows/validate-deadlines.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s utils -p 'test_*.py'
