@@ -4,11 +4,11 @@
 
 Countdown timers for top conferences in AI, EDA, computer architecture,
 computer systems, security, compilers, FPGA, integrated circuits, and
-databases/data mining (CCF-A only). The
-subject filter is intentionally limited to these nine areas. Conferences with a confirmed paper deadline are limited to
-the current calendar year, including conferences held the following year.
-Selected top conferences expected to open submissions this year remain visible
-as TBA until their official deadlines are announced.
+databases/data mining (CCF-A only). The subject filter covers these nine
+areas. The tracker lists the 2027 conference editions, including any verified
+2026 submission deadlines for those editions. Unannounced deadlines remain
+TBA and are not exported to the calendar. ECCV is held in even-numbered years
+and has no 2027 edition.
 
 ## Contributing
 
@@ -21,8 +21,9 @@ To keep things minimal, I'm only looking to list top-tier conferences in AI as p
 To add or update a deadline:
 - Fork the repository
 - Update `_data/conferences.yml`
-- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
-    + See available timezone strings [here](https://momentjs.com/timezone/).
+- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `date`, `place`, and `sub` attributes
+    + Include `timezone` for a confirmed deadline. See available timezone strings [here](https://momentjs.com/timezone/).
+- Optionally set `logo_id` to reuse an existing logo under `static/img/logos*` when an edition-specific image is unavailable.
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
 - Optionally add `hindex` (refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
 - Example:
