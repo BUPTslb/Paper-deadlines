@@ -5,82 +5,55 @@
 # International Academic Conferences and Journals list (March 2026 update).
 
 # Artificial intelligence
-- title: ACL
-  year: 2026
-  id: acl26
-  full_name: Annual Meeting of the Association for Computational Linguistics
-  link: https://2026.aclweb.org/calls/main_conference_papers/
-  deadline: '2026-01-05 23:59:59'
-  timezone: UTC-12
-  place: San Diego, California, USA
-  date: July 2-7, 2026
-  ccf: A
-  sub: AI
-  format: 'Single column (ACL style); long papers 8 pages of content (short papers 4) plus unlimited pages for the required limitations section, ethics, and references.'
-  format_short: 'single, 8 pages w/o refs'
-  note: CCF A. This is the ARR submission deadline.
-
 - title: ICML
-  year: 2026
-  id: icml26
+  year: 2027
+  id: icml27
+  logo_id: icml26
   full_name: International Conference on Machine Learning
-  link: https://icml.cc/Conferences/2026/CallForPapers
-  abstract_deadline: '2026-01-23 23:59:59'
-  deadline: '2026-01-28 23:59:59'
+  link: https://icml.cc/Conferences/2027/CallForPapers
+  abstract_deadline: '2027-01-14 23:59:59'
+  deadline: '2027-01-22 23:59:59'
   timezone: UTC-12
-  place: Seoul, Republic of Korea
-  date: July 6-11, 2026
+  place: Rio de Janeiro, Brazil
+  date: July 31-August 6, 2027
+  start: '2027-07-31'
+  end: '2027-08-06'
   ccf: A
   sub: AI
-  format: 'Single column (PMLR style); 8 pages of main text at submission, one extra page at camera-ready; unlimited references and appendices.'
-  format_short: 'single, 8 pages w/o refs'
-  note: CCF A. Mandatory abstract deadline is five days before the full-paper deadline.
+  format: Double column (ICML template); 8 pages of main text, with unlimited space for references, the impact statement, and appendices.
+  format_short: double, 8 pages main text
+  note: CCF A.
 
 - title: IJCAI
-  year: 2026
-  id: ijcai26
+  year: 2027
+  id: ijcai27
+  logo_id: ijcai26
   full_name: International Joint Conference on Artificial Intelligence
-  link: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
-  abstract_deadline: '2026-01-12 23:59:59'
-  deadline: '2026-01-19 23:59:59'
+  link: https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/
+  abstract_deadline: '2027-01-04 23:59:59'
+  deadline: '2027-01-11 23:59:59'
   timezone: UTC-12
-  place: Bremen, Germany
-  date: August 15-21, 2026
+  place: Kyoto, Japan
+  date: August 7-13, 2027
+  start: '2027-08-07'
+  end: '2027-08-13'
   ccf: B
   sub: AI
-  format: 'Double column (IJCAI style); 7 pages of body plus up to 2 pages of references; technical appendix submitted as separate supplementary material.'
-  format_short: 'double, 7 pages + 2 refs'
-  note: CCF B. Mandatory abstract deadline is one week before the full-paper deadline.
-
-- title: ECCV
-  year: 2026
-  id: eccv26
-  full_name: European Conference on Computer Vision
-  link: https://eccv.ecva.net/
-  deadline: '2026-03-06 13:00:00'
-  timezone: UTC
-  place: Malmö, Sweden
-  date: September 8-13, 2026
-  ccf: B
-  sub: AI
-  format: 'Single column (Springer LNCS); 14 pages excluding references (15 for camera-ready); supplementary material submitted separately.'
-  format_short: 'single, 14 pages w/o refs'
+  format: Double column (IJCAI template); 7 pages of body plus up to 2 pages of references.
+  format_short: double, 7 pages + 2 refs
   note: CCF B.
 
 - title: NeurIPS
-  year: 2026
-  id: neurips26
+  year: 2027
+  id: neurips27
+  logo_id: neurips26
   full_name: Conference on Neural Information Processing Systems
-  link: https://neurips.cc/Conferences/2026/CallForPapers
-  abstract_deadline: '2026-05-04 23:59:59'
-  deadline: '2026-05-06 23:59:59'
-  timezone: UTC-12
-  place: TBA
-  date: December 6-12, 2026
+  link: https://neurips.cc/Conferences/FutureMeetings
+  deadline: TBA
+  place: Europe
+  date: TBA
   ccf: A
   sub: AI
-  format: 'Single column (NeurIPS style); 9 pages of main text plus up to 10 additional pages for references, acknowledgements, checklist, and technical appendix.'
-  format_short: 'single, 9 pages + up to 10 extra'
   note: CCF A.
 
 - title: AAAI
@@ -133,6 +106,7 @@
 - title: ACL
   year: 2027
   id: acl27
+  logo_id: acl26
   full_name: Annual Meeting of the Association for Computational Linguistics
   link: https://2027.aclweb.org/
   deadline: '2027-01-04 23:59:59'
@@ -161,36 +135,30 @@
 
 # Electronic design automation
 - title: ICCAD
-  year: 2026
-  id: iccad26
+  year: 2027
+  id: iccad27
+  logo_id: iccad26
   full_name: International Conference on Computer-Aided Design
-  link: https://iccad.com/2026/
-  abstract_deadline: '2026-04-07 23:59:59'
-  deadline: '2026-04-14 23:59:59'
-  timezone: UTC-12
-  place: San Jose, California, USA
-  date: November 8-12, 2026
+  link: https://iccad.com/
+  deadline: TBA
+  place: TBA
+  date: TBA
   ccf: B
   sub: EDA
-  format: 'Double column (IEEE); 6 pages plus 1 additional page of references only.'
-  format_short: 'double, 6 pages + 1 ref page'
-  note: CCF B. Mandatory abstract deadline is one week before the full-paper deadline.
+  note: CCF B.
 
 - title: ICCD
-  year: 2026
-  id: iccd26
+  year: 2027
+  id: iccd27
+  logo_id: iccd26
   full_name: IEEE International Conference on Computer Design
-  link: https://www.iccd-conf.com/2026/
-  abstract_deadline: '2026-05-15 23:59:59'
-  deadline: '2026-05-22 23:59:59'
-  timezone: UTC-12
-  place: Hong Kong SAR, China
-  date: November 16-18, 2026
+  link: https://www.iccd-conf.com/
+  deadline: TBA
+  place: TBA
+  date: TBA
   ccf: B
   sub: [EDA, ARCH]
-  format: 'Double column (IEEE); 8 pages including figures, references, and appendix; up to 2 extra pages can be purchased for camera-ready.'
-  format_short: 'double, 8 pages incl. refs & appendix'
-  note: CCF B. Mandatory abstract deadline is one week before the full-paper deadline.
+  note: CCF B.
 
 - title: ASP-DAC
   year: 2027
@@ -273,19 +241,16 @@
   note: CCF A. April submission cycle; there is no separate abstract deadline.
 
 - title: MICRO
-  year: 2026
-  id: micro26
+  year: 2027
+  id: micro27
+  logo_id: micro26
   full_name: IEEE/ACM International Symposium on Microarchitecture
-  link: https://www.microarch.org/micro59/
-  abstract_deadline: '2026-03-31 23:59:59'
-  deadline: '2026-04-07 23:59:59'
-  timezone: America/New_York
-  place: Athens, Greece
-  date: October 17-21, 2026
+  link: https://www.microarch.org/
+  deadline: TBA
+  place: TBA
+  date: TBA
   ccf: A
   sub: ARCH
-  format: 'Double column; 11 pages excluding references; no appendix allowed; no page limit for references.'
-  format_short: 'double, 11 pages w/o refs, no appendix'
   note: CCF A.
 
 - title: HPCA
@@ -384,68 +349,92 @@
   note: CCF A. Mandatory abstract registration is one week earlier.
 
 - title: SC
-  year: 2026
-  id: sc26
+  year: 2027
+  id: sc27
+  logo_id: sc26
   full_name: International Conference for High Performance Computing, Networking, Storage and Analysis
-  link: https://sc26.supercomputing.org/
-  abstract_deadline: '2026-04-01 23:59:59'
-  deadline: '2026-04-08 23:59:59'
+  link: https://sc27.supercomputing.org/all-dates-deadlines/
+  abstract_deadline: '2027-03-25 23:59:59'
+  deadline: '2027-04-01 23:59:59'
   timezone: UTC-12
-  place: Chicago, Illinois, USA
-  date: November 15-20, 2026
+  place: Denver, Colorado, USA
+  date: November 14-19, 2027
+  start: '2027-11-14'
+  end: '2027-11-19'
   ccf: A
   sub: [ARCH, SYS]
-  format: 'Double column (IEEE); 10 pages excluding the bibliography; appendices count toward the limit except the optional 2-page artifact description appendix.'
-  format_short: 'double, 10 pages w/o refs'
-  note: CCF A. Paper submissions close on April 8 with no extensions; abstracts are due one week earlier.
+  format: Double column (ACM sigconf); 10 pages excluding the bibliography and the artifact description or evaluation appendices.
+  format_short: double, 10 pages w/o refs & artifact appendices
+  note: CCF A. Paper submissions close April 1 with no extensions. The required artifact description is due April 28 AoE.
 
 - title: HPDC
-  year: 2026
-  id: hpdc26
+  year: 2027
+  id: hpdc27
+  logo_id: hpdc26
   full_name: ACM International Symposium on High-Performance Parallel and Distributed Computing
-  link: https://hpdc.sci.utah.edu/2026/
-  abstract_deadline: '2026-01-29 23:59:59'
-  deadline: '2026-02-05 23:59:59'
+  link: https://hpdc.sci.utah.edu/2027/calls-cfp.html
+  abstract_deadline: '2027-01-11 23:59:59'
+  deadline: '2027-01-18 23:59:59'
   timezone: UTC-12
-  place: Cleveland, Ohio, USA
-  date: July 13-16, 2026
+  place: Atlanta, Georgia, USA
+  date: June 7-10, 2027
+  start: '2027-06-07'
+  end: '2027-06-10'
   ccf: B
   sub: SYS
-  format: 'Double column (ACM sigconf); 11 pages excluding references.'
-  format_short: 'double, 11 pages w/o refs'
-  note: CCF B. Mandatory abstract registration is one week before the firm full-paper deadline.
+  format: Double column (ACM sigconf); 11 pages excluding references.
+  format_short: double, 11 pages w/o refs
+  note: CCF B.
 
 - title: ICPP
-  year: 2026
-  id: icpp26
+  year: 2027
+  id: icpp27
+  logo_id: icpp26
   full_name: International Conference on Parallel Processing
-  link: https://icpp2026.github.io/
-  abstract_deadline: '2026-04-24 23:59:59'
-  deadline: '2026-05-01 23:59:59'
-  timezone: UTC-12
-  place: Singapore
-  date: September 28-October 1, 2026
+  link: https://icpp2027.github.io/
+  deadline: TBA
+  place: Sapporo, Japan
+  date: September 13-17, 2027
+  start: '2027-09-13'
+  end: '2027-09-17'
   ccf: B
   sub: [ARCH, SYS]
-  format: 'ACM format; 10 pages including references.'
-  format_short: 'double, 10 pages incl. refs'
-  note: CCF B. The 55th ICPP; abstract registration is one week before the full-paper deadline.
+  note: CCF B.
 
 # Security and privacy
 - title: CCS
-  year: 2026
-  id: ccs26cycle2
+  year: 2027
+  id: ccs27cycle1
+  logo_id: ccs26cycle2
   full_name: ACM Conference on Computer and Communications Security
-  link: https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html
-  deadline: '2026-04-29 23:59:59'
+  link: https://www.sigsac.org/ccs/CCS2027/cfp.html
+  deadline: TBA
   timezone: UTC-12
-  place: The Hague, Netherlands
-  date: November 15-19, 2026
+  place: Atlanta, Georgia, USA
+  date: October 11-15, 2027
+  start: '2027-10-11'
+  end: '2027-10-15'
   ccf: A
   sub: SEC
-  format: 'Double column (ACM sigconf); 12 pages excluding the bibliography and well-marked appendices; the ethical considerations section does not count.'
-  format_short: 'double, 12 pages w/o refs'
-  note: CCF A. Second review cycle.
+  format: Double column (ACM sigconf); 12 pages excluding the bibliography and clearly marked appendices.
+  format_short: double, 12 pages w/o refs
+  note: CCF A. First review cycle; submission date TBD.
+
+- title: CCS
+  year: 2027
+  id: ccs27cycle2
+  logo_id: ccs26cycle2
+  full_name: ACM Conference on Computer and Communications Security
+  link: https://www.sigsac.org/ccs/CCS2027/cfp.html
+  deadline: TBA
+  timezone: UTC-12
+  place: Atlanta, Georgia, USA
+  date: October 11-15, 2027
+  ccf: A
+  sub: SEC
+  format: Double column (ACM sigconf); 12 pages excluding the bibliography and clearly marked appendices.
+  format_short: double, 12 pages w/o refs
+  note: CCF A. Second review cycle; submission date TBD.
 
 - title: NDSS
   year: 2027
@@ -510,68 +499,63 @@
   note: CCF B. Second review round; papers rejected in round one may not be resubmitted. Co-located with HPCA/CGO/PPoPP/CC 2027.
 
 - title: PACT
-  year: 2026
-  id: pact26
+  year: 2027
+  id: pact27
+  logo_id: pact26
   full_name: ACM International Conference on Parallel Architectures and Compilation Techniques
   link: https://pact2026.github.io/
-  abstract_deadline: '2026-04-23 23:59:59'
-  deadline: '2026-04-30 23:59:59'
-  timezone: UTC-12
-  place: Chicago, Illinois, USA
-  date: October 19-22, 2026
+  deadline: TBA
+  place: Tokyo, Japan
+  date: TBA
   ccf: B
   sub: [COMP, ARCH]
-  format: 'Double column (ACM sigconf, 9pt); 10 pages excluding references.'
-  format_short: 'double, 10 pages w/o refs'
-  note: CCF B. Extended deadlines; the original abstract and paper deadlines were April 17 and April 24, 2026.
+  note: CCF B. The previous edition’s organizers announced Tokyo for 2027; the 2027 dates and call for papers are not yet published.
 
 # FPGA
 - title: FCCM
-  year: 2026
-  id: fccm26
+  year: 2027
+  id: fccm27
+  logo_id: fccm26
   full_name: IEEE International Symposium on Field-Programmable Custom Computing Machines
-  link: https://www.fccm.org/
-  abstract_deadline: '2026-01-10 23:59:59'
-  deadline: '2026-01-17 23:59:59'
+  link: https://www.fccm.org/call-for-papers-2027/
+  abstract_deadline: '2027-01-10 23:59:59'
+  deadline: '2027-01-17 23:59:59'
   timezone: UTC-12
-  place: Atlanta, Georgia, USA
-  date: May 13-16, 2026
+  place: Provo, Utah, USA
+  date: May 9-12, 2027
+  start: '2027-05-09'
+  end: '2027-05-12'
   ccf: C
   sub: FPGA
-  format: 'Double column (IEEE); long papers 8 pages and short papers 4 pages, both excluding references.'
-  format_short: 'double, 8 pages w/o refs'
-  note: CCF C. No extensions; abstract registration is one week before the full-paper deadline.
+  format: Double column (IEEE); long papers 8 pages and short papers 4 pages, both excluding references.
+  format_short: double, 8 pages w/o refs
+  note: CCF C.
 
 - title: FPL
-  year: 2026
-  id: fpl26
+  year: 2027
+  id: fpl27
+  logo_id: fpl26
   full_name: International Conference on Field-Programmable Logic and Applications
-  link: https://2026.fpl.org/
-  abstract_deadline: '2026-03-20 23:59:59'
-  deadline: '2026-03-27 23:59:59'
-  timezone: UTC-12
-  place: Ghent, Belgium
-  date: September 7-11, 2026
+  link: https://fpl.org/
+  deadline: TBA
+  place: TBA
+  date: TBA
   ccf: C
   sub: FPGA
-  format: 'Double column (IEEE); long papers 8 pages plus references (references limited to 2 pages), short papers 5 pages plus references.'
-  format_short: 'double, 8 pages + up to 2 ref pages'
-  note: CCF C. The 36th FPL; abstract submission is one week before the full-paper deadline.
+  note: CCF C.
 
 - title: FPT
-  year: 2026
-  id: fpt26
+  year: 2027
+  id: fpt27
+  logo_id: fpt26
   full_name: International Conference on Field-Programmable Technology
   link: https://icfpt.org/
-  deadline: '2026-06-05 23:59:59'
-  timezone: UTC-12
-  place: Honolulu, Hawaii, USA
-  date: December 7, 2026
+  deadline: TBA
+  place: TBA
+  date: TBA
   ccf: C
   sub: FPGA
-  format: 'Double column (IEEE); full papers 8 pages plus unlimited reference pages; short papers 4 pages including references.'
-  format_short: 'double, 8 pages + unlimited refs'
-  note: CCF C. The 25th ICFPT.
+  note: CCF C.
 
 - title: FPGA
   year: 2027
@@ -654,19 +638,19 @@
 
 # Integrated circuits
 - title: HotChips
-  year: 2026
-  id: hotchips26
+  year: 2027
+  id: hotchips27
+  logo_id: hotchips26
   full_name: Hot Chips – A Symposium on High Performance Chips
-  link: https://hotchips.org/
-  deadline: '2026-04-08 23:59:59'
-  timezone: UTC-12
-  place: Stanford, California, USA
-  date: August 23-25, 2026
+  link: https://www.hotchips.org/
+  deadline: TBA
+  place: Palo Alto, California, USA
+  date: August 22-24, 2027
+  start: '2027-08-22'
+  end: '2027-08-24'
   ccf: B
   sub: [IC, ARCH]
-  format: 'Two-page extended abstracts describing the work to be presented.'
-  format_short: '2-page extended abstract'
-  note: CCF B. Extended deadline; the original submission deadline was March 29, 2026. Submissions are two-page extended abstracts.
+  note: CCF B.
 
 - title: ISSCC
   year: 2027
@@ -698,18 +682,18 @@
   note: CCF B. Regular paper, live demonstration, and tutorial proposal deadline.
 
 - title: IEDM
-  year: 2026
-  id: iedm26
+  year: 2027
+  id: iedm27
+  logo_id: iedm26
   full_name: IEEE International Electron Devices Meeting
-  link: https://ieee-iedm.org/
-  deadline: '2026-07-19 23:59:59'
-  timezone: America/Los_Angeles
+  link: https://ieee-iedm.org/about/future-conferences/
+  deadline: TBA
   place: San Francisco, California, USA
-  date: December 12-16, 2026
+  date: December 4-8, 2027
+  start: '2027-12-04'
+  end: '2027-12-08'
   sub: IC
-  format: 'Double column (IEEE); four-page abstract-format submission (summary plus supporting data and figures).'
-  format_short: 'double, 4-page abstract format'
-  note: The flagship conference for semiconductor device technology; the paper deadline was extended from July 16 to July 19, 2026 (23:59 PDT), with late-news papers closing August 18. Not in the CCF recommended list.
+  note: The flagship conference for semiconductor device technology; not in the CCF recommended list.
 
 - title: GLSVLSI
   year: 2027

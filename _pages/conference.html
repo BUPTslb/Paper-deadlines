@@ -108,11 +108,11 @@ permalink:  /conference/
 
               $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
               $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
-              $('#conf-logo').attr('src', '{{site.baseurl}}/static/img/logos-webp/{{conf.id}}.webp');
+              {% assign logo_id = conf.logo_id | default: conf.id %}
               $('#conf-logo').on('error', function() {
                 var candidates = [
-                  '{{site.baseurl}}/static/img/logos/{{conf.id}}.svg',
-                  '{{site.baseurl}}/static/img/logos/{{conf.id}}.png'
+                  '{{site.baseurl}}/static/img/logos/{{logo_id}}.svg',
+                  '{{site.baseurl}}/static/img/logos/{{logo_id}}.png'
                 ];
                 var i = +(this.dataset.i || 0);
                 if (i < candidates.length) {
@@ -122,6 +122,7 @@ permalink:  /conference/
                   $(this).remove();
                 }
               });
+              $('#conf-logo').attr('src', '{{site.baseurl}}/static/img/logos-webp/{{logo_id}}.webp');
               // set badges
               var subs = '{{conf.sub}}'.split(',');
               for (let i = 0; i < subs.length; i++) {

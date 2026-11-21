@@ -84,8 +84,11 @@
 function load_conference_list() {
   // Gather data
   var conf_list_all = [];
+  addUtcTimeZones();
   {% for conf in site.data.conferences %}
-    // add deadlines in red
+    {% if conf.deadline and conf.deadline != "TBA" %}
+    // Show deadlines on the viewer’s local calendar day.
+    var deadlineDay = moment.tz("{{conf.deadline}}", "{{conf.timezone | default: 'America/New_York'}}").local().startOf("day").toDate();
     conf_list_all.push({
       id: "{{conf.id}}-deadline",
       abbreviation: "{{conf.id}}",
@@ -95,12 +98,14 @@ function load_conference_list() {
       date: "{{conf.date}}",
       hindex: "{{conf.hindex}}",
       subject: "{{conf.sub}}",
-      startDate: Date.parse("{{conf.deadline}}"),
-      endDate: Date.parse("{{conf.deadline}}"),
+      startDate: deadlineDay,
+      endDate: deadlineDay,
     });
 
+    {% endif %}
+
     // add Conferences in chosen color
-    {% if conf.start != "" %}
+    {% if conf.start and conf.end and conf.start != "" and conf.end != "" and conf.start != "TBA" and conf.end != "TBA" %}
       var color = "black";
       {% assign conf_sub = conf.sub | split: ',' | first | strip %} // use first sub to choose color
       {% for type in site.data.types %}
@@ -117,8 +122,8 @@ function load_conference_list() {
         date: "{{conf.date}}",
         hindex: "{{conf.hindex}}",
         subject: "{{conf.sub}}",
-        startDate: Date.parse("{{conf.start}}"),
-        endDate: Date.parse("{{conf.end}}"),
+        startDate: moment("{{conf.start}}", "YYYY-MM-DD", true).toDate(),
+        endDate: moment("{{conf.end}}", "YYYY-MM-DD", true).toDate(),
       });
     {% endif %}
   {% endfor %}

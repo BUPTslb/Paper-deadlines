@@ -36,6 +36,20 @@ class DeadlineUpdaterTests(unittest.TestCase):
                         self.assertIsInstance(rule["formats"], list)
                         self.assertTrue(rule["formats"])
 
+    def test_reused_logos_exist(self):
+        conferences = yaml.safe_load(DATA_FILE.read_text())
+        images = DATA_FILE.parent.parent / "static" / "img"
+        for conference in conferences:
+            if "logo_id" not in conference:
+                continue
+            logo_id = conference["logo_id"]
+            with self.subTest(conference=conference["id"], logo=logo_id):
+                self.assertTrue(
+                    any((images / directory / f"{logo_id}.{extension}").is_file()
+                        for directory, extension in (("logos-webp", "webp"), ("logos", "svg"), ("logos", "png"))),
+                    "Reused conference logo does not exist",
+                )
+
     def assert_source_dates(self, conference_id, raw_html, abstract, paper):
         sources = yaml.safe_load(SOURCES_FILE.read_text())["sources"]
         source = next(rule for rule in sources if rule["id"] == conference_id)
